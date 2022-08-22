@@ -1,5 +1,16 @@
 .eightBall {
-    height: 250px;
-    width: 250px;
+    display: flex;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.eightBall p {
+    vertical-align: middle;
+    max-width: 80%;
+    color: white;
 }
